@@ -100,3 +100,8 @@ button:active {
 .error-text {
   color: #b40e0e;
 }
+.form-actions button:disabled{
+  background-color:#ccc;
+  cursor: not-allowed;
+  border-color: #ccc;
+}
